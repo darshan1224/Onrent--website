@@ -1,0 +1,270 @@
+.header{
+  width: 100%;
+  height: 120px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  margin: 20px 0px 20px 0px;
+}
+
+.bocontainer{
+  width: 90%;
+  height: 70vh;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 300px 1fr 1fr ;
+
+  margin: auto;
+
+  gap: 25px;
+
+
+
+  justify-items: center;
+  align-items: center;
+
+}
+
+.bocontainer div{
+
+  height:100%;
+  width:100%;
+
+
+}
+
+.item1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url('https://cdn.shopify.com/s/files/1/0585/2758/0299/products/FUR3824_903x452.jpg?v=1655387582'); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item2{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: center;
+}
+
+.item2 h2{
+  color: black;
+}
+
+/* .item22{ */
+  /* display: flex; */
+  /* background: brown;
+  height: 50px;
+
+
+}
+
+.item22 .new h2{
+  border: 2px solid black;
+  color:white;
+  background-color:#7FFFD4;
+  border-radius: 25px;
+  font-size: 20px;
+
+}
+
+
+.co, .new, .refur{
+  padding: 0px, 0px, 0px, 0px;
+  margin: 0px;
+}
+
+.item22 .new h2 span img{
+
+
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.item22 .refur h2{
+  border: 2px solid black;
+  color:white;
+  background-color:#AFEEEE;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 1px;
+
+}
+
+.item22 .co h3{
+  font-weight: 500;
+} */
+
+.item2 ul li{
+  display: inline-block;
+  outline: none;
+  margin: 20px 20px:
+
+}
+
+.item2 ul li h2{
+  font-size: 18px;
+
+  border-radius: 25px;
+}
+
+.item2 #ab01{
+  background: #1E90FF;
+  font-size: 18px;
+  text-align: center;
+}
+
+.item2 #ab02{
+  background: #87CEEB;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.item2 ul li h2 span img{
+  width: 20px;
+  height: 20px;
+}
+
+.item2 #ab03 span{
+  color:red;
+}
+
+.item2 #ab04{
+  text-decoration: line-through;
+}
+
+.item2 #btn1{
+  width: 120px;
+  margin: 20px 0px;
+  padding: 20px;
+  color: white;
+  background: #DDA0DD;
+  border-radius: 25px;
+}
+
+
+
+.item3{
+  background-image: url('https://cdn.shopify.com/s/files/1/0585/2758/0299/products/FUR3824_150x75_crop_center.jpg?v=1655387582');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item4{
+  background-image: url('https://cdn.shopify.com/s/files/1/0585/2758/0299/products/FUR3920copy_150x75_crop_center.jpg?v=1655387582');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item5{
+  background-image: url('https://cdn.shopify.com/s/files/1/0585/2758/0299/products/FUR3919copy2_150x75_crop_center.jpg?v=1655365981');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item6{
+  background-image: url('https://cdn.shopify.com/s/files/1/0585/2758/0299/products/FUR3920copy_150x75_crop_center.jpg?v=1655387582');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item7{
+  background-image: url('https://cdn.shopify.com/s/files/1/0585/2758/0299/products/BordoQueenDelphie_150x75_crop_center.jpg?v=1655831734');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+.bocontainer02{
+  width: 90%;
+  height: 70vh;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 450px 1fr 1fr ;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+  margin: 20px auto;
+
+  gap: 25px;
+
+
+
+  justify-items: center;
+  align-items: center;
+
+}
+
+
+.bocontainer02 div{
+
+  height:100%;
+  width:100%;
+
+
+}
+
+.itema1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.itema2{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url('https://s21.q4cdn.com/399680738/files/images/management/mark-zuckerberg-bio.png');
+  background-size: 150px;
+  background-position: top;
+  background-repeat: no-repeat;
+  align-items: top;
+  margin-top: 2px;
+  padding-top: 0px;
+  background: ;
+  text-align: center;
+}
+
+.itema2 p, input{
+  text-align: center;
+  weight: bold;
+  color: black;
+
+}
+
+.itema2 #ca{
+  width: 120px;
+  margin: 20px 10px auto;
+  padding:20px;
+  background: transparent;
+  border-radius: 25px;
+  border: solid yellow;
+  color: white;
+
+}
+
+.itema2 #fo{
+  width: 140px;
+  margin: 20px auto;
+  padding:20px;
+  background: transparent;
+  border-radius: 25px;
+  border: solid yellow;
+  color: white;
+
+}
